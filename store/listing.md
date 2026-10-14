@@ -12,7 +12,7 @@ Productivity (or Accessibility)
 ## Description
 Microsoft Teams on the web captures Ctrl+1 through Ctrl+9 for its own navigation, so the browser shortcut for jumping to a tab stops working while a Teams tab is focused.
 
-This extension gives those shortcuts back to the browser. On Teams pages, Ctrl+1 to Ctrl+9 (Cmd on macOS) switch tabs again, as they do everywhere else.
+This extension gives those shortcuts back to the browser. On Teams pages, Ctrl+1 to Ctrl+9 (Cmd on macOS) and Alt+1 to Alt+9 switch tabs again, as they do everywhere else.
 
 - No permissions requested
 - Runs only on teams.microsoft.com and teams.cloud.microsoft

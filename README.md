@@ -1,12 +1,13 @@
 # Ctrl Fixer for Microsoft Teams
 
-Microsoft Teams web grabs Ctrl+1-9, so you can't jump between browser tabs while Teams is focused. This extension stops Teams from seeing those keys, so the browser handles them.
+Microsoft Teams web grabs Ctrl+1-9 and Alt+1-9, so you can't jump between browser tabs while Teams is focused. This extension stops Teams from seeing those keys, so the browser handles them.
 
 The whole thing is [`extension/content.js`](extension/content.js):
 
 ```js
 window.addEventListener('keydown', (e) => {
-  if ((e.ctrlKey || e.metaKey) && !e.altKey && !e.shiftKey && /^Digit[1-9]$/.test(e.code)) {
+  const mods = e.ctrlKey + e.metaKey + e.altKey;
+  if (mods === 1 && !e.shiftKey && /^Digit[1-9]$/.test(e.code)) {
     e.stopImmediatePropagation();
   }
 }, true);
