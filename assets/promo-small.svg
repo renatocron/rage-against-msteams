@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280">
+  <rect width="440" height="280" fill="#111827"/>
+  <g transform="translate(36,76)">
+    <rect x="0" y="4" width="128" height="124" rx="22" fill="#1f2937"/>
+    <rect x="0" y="0" width="128" height="114" rx="22" fill="#374151"/>
+    <rect x="11" y="9" width="106" height="92" rx="16" fill="#4b5563"/>
+    <text x="64" y="50" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="bold" fill="#f9fafb" text-anchor="middle">Ctrl</text>
+    <text x="64" y="86" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="bold" fill="#34d399" text-anchor="middle">1-9</text>
+  </g>
+  <text x="190" y="128" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="bold" fill="#f9fafb">Ctrl Fixer</text>
+  <text x="190" y="160" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" fill="#d1d5db">Tab switching back on</text>
+  <text x="190" y="182" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" fill="#d1d5db">Microsoft Teams web</text>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Ctrl Fixer for Microsoft Teams",
+  "short_name": "Ctrl Fixer",
+  "description": "Lets Ctrl+1-9 switch browser tabs while Microsoft Teams web is open. Not affiliated with Microsoft.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://teams.cloud.microsoft/*",
+        "https://teams.microsoft.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}

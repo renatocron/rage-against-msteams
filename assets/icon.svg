@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect x="8" y="12" width="112" height="108" rx="20" fill="#1f2937"/>
+  <rect x="8" y="8" width="112" height="100" rx="20" fill="#374151"/>
+  <rect x="18" y="16" width="92" height="80" rx="14" fill="#4b5563"/>
+  <text x="64" y="52" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="bold" fill="#f9fafb" text-anchor="middle">Ctrl</text>
+  <text x="64" y="84" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#34d399" text-anchor="middle">1-9</text>
+</svg>
